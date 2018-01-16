@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            JS Calculator
+        </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+
+        <div id="calc-title">JS Calculator</div>
+
+        <div class="calculator">
+            <div id="calc-screen">0</div>
+            <div class="history-wrapper">
+                <div id="h-clear">
+                    <i class="fa fa-trash-o" aria-hidden="true"></i>
+                </div>
+                <div id="history"></div>
+            </div>
+
+            <div class="input-row">
+                <div class="btn" id="btn-AC">AC</div>
+                <div class="btn" id="btn-DEL">←</div>
+                <div class="btn" id="btn-PI">π</div>
+                <div class="btn" id="btn-facto">n!</div>
+                <div class="btn btn-operator" id="btn-addition">+</div>
+            </div>
+
+            <div class="input-row">
+                <div class="btn btn-operator" id="btn-power">^</div>
+                <div class="btn btn-num" id="btn-1">1</div>
+                <div class="btn btn-num" id="btn-2">2</div>
+                <div class="btn btn-num" id="btn-3">3</div>
+                <div class="btn btn-operator" id="btn-minus">-</div>
+            </div>
+
+            <div class="input-row">
+                <div class="btn" id="btn-root">√</div>
+                <div class="btn btn-num" id="btn-4">4</div>
+                <div class="btn btn-num" id="btn-5">5</div>
+                <div class="btn btn-num" id="btn-6">6</div>
+                <div class="btn btn-operator" id="btn-mult">*</div>
+                
+            </div>
+
+            <div class="input-row">
+                <div class="btn btn-parenthesis" id="btn-par-left">(</div>
+                <div class="btn btn-num" id="btn-7">7</div>
+                <div class="btn btn-num" id="btn-8">8</div>
+                <div class="btn btn-num" id="btn-9">9</div>
+                <div class="btn btn-operator" id="btn-division">/</div> 
+            </div>
+
+            <div class="input-row">
+                <div class="btn btn-parenthesis" id="btn-par-right">)</div>
+                <div class="btn btn-num" id="btn-0">0</div>
+                <div class="btn" id="btn-point">.</div>
+                <div class="btn" id="btn-positive-negative">+/-</div>
+                <div class="btn" id="btn-equals">=</div>
+            </div>
+        </div>
+        <div id="author">Coded by Nivom</div>
+    </body>
+</html>
